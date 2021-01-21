@@ -7,7 +7,7 @@ local judge_util = require("orange.utils.judge")
 local extractor_util = require("orange.utils.extractor")
 local handle_util = require("orange.utils.handle")
 local BasePlugin = require("orange.plugins.base_handler")
-
+qqqq
 
 local function filter_rules(sid, plugin, ngx_var_uri, ngx_var_host, ngx_var_scheme, ngx_var_args)
     local rules = orange_db.get_json(plugin .. ".selector." .. sid .. ".rules")
